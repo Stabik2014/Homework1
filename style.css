@@ -12,8 +12,8 @@ a {
 }
 
 .center {
-  padding-left: calc(50% - 600px);
-  padding-right: calc(50% - 600px);
+  padding-left: calc(50% - 640px);
+  padding-right: calc(50% - 640px);
 }
 
 .header {
@@ -50,6 +50,7 @@ a {
 
 .header__button {
   width: 234px;
+  height: 49px;
   background: #9C0332;
   border-radius: 30px;
 }
@@ -72,49 +73,44 @@ a {
   flex-wrap: wrap;
   justify-content: space-between;
   background: #000915;
+  grid-column: span 6;
+}
+
+.content__items {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: flex-end;
+  color: #FFFFFF;
+  padding-left: 32px;
+  padding-bottom: 32px;
 }
 
 .content__items1 {
+  background-image: url(pictures/Rectangle\ 6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
   width: 379px;
   height: 300px;
-  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%);
-  background-image: url(pictures/Rectangle\ 6.jpg);
-  border-radius: 16px;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 32px;
-  display: flex;
-  align-items: flex-end;
-  color: #FFFFFF;
 }
 
 .content__items2 {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 32px;
-  display: flex;
-  align-items: flex-end;
-  color: #FFFFFF;
+  background-image: url(pictures/Rectangle\ 7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
   width: 379px;
   height: 300px;
-  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%);
-  background-image: url(pictures/Rectangle\ 7.jpg);
-  border-radius: 16px;
 }
 
 .content__items3 {
+  background-image: url(pictures/Rectangle\ 8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
   width: 379px;
   height: 300px;
-  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%);
-  background-image: url(pictures/Rectangle\ 8.jpg);
-  border-radius: 16px;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 32px;
-  display: flex;
-  align-items: flex-end;
-  color: #FFFFFF;
 }/*# sourceMappingURL=style.css.map */
