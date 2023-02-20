@@ -1,11 +1,13 @@
 
 let e = 10
+let b = 10
 alert(e)
+alert(e+b)
 
-let yearofIssue = 2007
+const yearofIssue = 2007
 alert (yearofIssue);
 
-let username = `Brendan Eich`
+const username = `Brendan Eich`
 alert (username)
 
 let x = 10
@@ -26,10 +28,23 @@ num += 5;
 num -= 3;
 num *= 7;
 num /= 3;
-+num = 1;
--num = 1;
+num ++ 1;
+num -- 1;
 alert(num);
 
 let age = prompt( "Сколько вам лет?")
 alert (age)
+
+const user = {
+name: 'Hleb',
+age: 27,
+isAdmin: true
+}
+user['city of residence'] = 'Gdańsk';
+user.age = 27;
+delete user['city of residence'];
+let info = prompt("Что вы хотите узнать о пользователе?");
+alert(user[info]);
+
+    
 
