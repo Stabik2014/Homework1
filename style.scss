@@ -1,97 +1,116 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-.center{
-    padding-left: calc(50% -600px);
-    padding-right: calc(50% - 600px);
+
+body {
+  font-family: "Montserrat", sans-serif;
 }
-.top{
-    height: 1024px;
-    width: 1440px;
-    font-family: 'Montserrat', sans-serif;
+style{
+  display: contents;
 }
-header{
-    box-sizing: border-box;
-    background-image: url(pictures/Rectangle\ 1.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+strong{
+  font-weight: bold;
 }
-.header__header{
-    width: 666px;
-    padding-top: 200px;
-    display: flex;
-    align-items: center;
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 78px;
-    color: #FFFFFF
+.center {
+  width: 1440px;
+  height: 1024px;
+  padding-left: calc(50% - 560px);
+  padding-right: calc(50% - 560px);
 }
+
+header {
+  box-sizing: border-box;
+  background-image: url(pictures/Rectangle\ 1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.header__header {
+  width: 666px;
+  padding-top: 204px;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  color: #FFFFFF;
+}
+
 .header__info {
-    padding-top: 100px;
-    padding-bottom: 44px;
-    width: 471px;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 32px;
-    display: flex;
-    color: #FFFFFF;
+  padding-top: 17px;
+  padding-bottom: 44px;
+  width: 471px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  display: flex;
+  color: #FFFFFF;
 }
-.header__button{
-    width: 236px;
-    height: 49px;
-    background: #9C0332;
-    border-radius: 30px;
+
+.header__button {
+  width: 236px;
+  height: 49px;
+  background: #9C0332;
+  border-radius: 30px;
+  border: none;
 }
-.header__button{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    display: flex;
-    color: #FFFFFF;
+
+.header__button {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
 }
-.content{
-    gap: 32px;
-    padding-top: 128px;
-    padding-bottom: 128px;
-    display: flex;
-    background: #000915;
+
+.content {
+  gap: 32px;
+  padding-top: 128px;
+  padding-bottom: 128px;
+  display: flex;
+  background: #000915;
 }
-.content__items{
-    font-style: normal;
+
+.content__items {
+  font-style: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 32px;
     display: flex;
-    align-items: flex-end;
     color: #FFFFFF;
     padding-left: 32px;
     padding-bottom: 32px;
+    align-items: flex-end;
+    justify-content: flex-start;
 }
-.content__items1{
-    background-image:url(pictures/Rectangle\ 6.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 16px;
-    width: 346px;
-    height: 270px;
+
+.content__items1 {
+  background-image: url(pictures/Rectangle\ 6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  width: 346px;
+  height: 270px;
 }
-.content__items2{
-    background-image:url(pictures/Rectangle\ 7.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 16px;
-    width: 346px;
-    height: 270px;
-    
+
+.content__items2 {
+  background-image: url(pictures/Rectangle\ 7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  width: 346px;
+  height: 270px;
 }
-.content__items3{
-    background-image:url(pictures/Rectangle\ 8.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 16px;
-    width: 346px;
-    height: 270px;
-}
+
+.content__items3 {
+  background-image: url(pictures/Rectangle\ 8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  width: 346px;
+  height: 270px;
